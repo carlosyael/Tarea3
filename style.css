@@ -8,7 +8,7 @@
 body{
     padding: 0;
     margin:0;
-    background: linear-gradient(to right,#f8f8f8,#929292);
+    background: linear-gradient(to bottom,#f8f8f8,#687cf2);
 
 
 }
@@ -18,7 +18,8 @@ body{
     align-content: center;
     min-height: 100vh;
     grid-template-columns: repeat(4,70px);
-    grid-template-rows: minmax(84px,auto) repeat(4,70px);
+    grid-template-rows: minmax(84px,auto) repeat(5,70px);
+
 
 }
 .calculator_div>button{
@@ -26,7 +27,7 @@ body{
     font-size: 2rem;
     border:1px solid white  ;
     outline: none;
-    background-color: rgba(255,255,255,.75) ;
+    background-color: rgb(173, 185, 253) ;
 
 
 }
@@ -39,7 +40,7 @@ body{
 }
 .output{
     grid-column: 1/-1;
-    background-color:rgba(0, 0, 0, 0.75);
+    background-color:rgba(55, 7, 245, 0.933);
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
