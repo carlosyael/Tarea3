@@ -8,7 +8,7 @@
 body{
     padding: 0;
     margin:0;
-    background: linear-gradient(to bottom,#f8f8f8,#687cf2);
+    background: linear-gradient(to bottom, rgb(173, 185, 253),rgba(55, 7, 245, 0.933));
 
 
 }
@@ -17,15 +17,15 @@ body{
     justify-content: center;
     align-content: center;
     min-height: 100vh;
-    grid-template-columns: repeat(4,70px);
-    grid-template-rows: minmax(84px,auto) repeat(5,70px);
+    grid-template-columns: repeat(4,120px);
+    grid-template-rows: minmax(168px,auto) repeat(5,120px);
 
 
 }
 .calculator_div>button{
     cursor: pointer;
     font-size: 2rem;
-    border:1px solid white  ;
+    border:1px solid rgb(255, 255, 255)  ;
     outline: none;
     background-color: rgb(173, 185, 253) ;
 
@@ -52,11 +52,11 @@ body{
 }
 .output .previous_operand{
     color: rgba(255,255,255,.75);
-    font-size: 1.5rem;
+    font-size: 3.5rem;
 
 }
 .output .current_operand{
     color: rgb(255,255,255);
-    font-size: 1.5rem;
+    font-size: 3.5rem;
     
 }
